@@ -1,3 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.component {
+  display: flex;
+  border: 9px;
+}
+
+.card {
+  width: 25rem;
+  padding: 4.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  /* font-family: "Lexend Deca", sans-serif; */
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
